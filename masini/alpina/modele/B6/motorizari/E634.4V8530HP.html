@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="stylesheet" src="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+		src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		crossorigin="anonymous">
+    </script>
+
+    <!-- jQuery redirect -->
+
+    <script>
+      $(document).ready(function () {
+        $(".linkHome").click(function () {
+            window.location.href = "/index.html"; // window - fereastra afisata in browser; location.href este referinta catre fisierul afisat
+          });
+        });
+    </script>
+
+    <title>Dictionarul de masini - Alpina</title>
+  </head>
+  <body
+    class="bg-dark"
+    style="
+      background: rgb(0, 0, 0);
+      background-image: linear-gradient(
+        45deg,
+      hsl(0deg 43% 10%) 0%,
+      hsl(3deg 56% 14%) 20%,
+      hsl(3deg 64% 17%) 40%,
+      hsl(2deg 70% 21%) 60%,
+      hsl(1deg 75% 24%) 80%,
+      hsl(0deg 79% 28%) 100%)">
+    <!-- Header -->
+    <div class="m-4">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand linkHome">
+            <img src="logo.png" height="100" alt="CoolBrand" />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="#" class="nav-item nav-link active text-light linkHome">Home</a>
+              <a href="../../../../../profile.html" class="nav-item nav-link text-light linkProfile">Profile</a>
+              <a href="../../../../../calculatorParcare.html" class="nav-item nav-link text-light linkParcare"
+                >Calculator parcare Bucuresti</a
+              >
+              <a href="../../../../../piese.html" class="nav-item nav-link text-light linkDictionar"
+                >Dictionar piese auto</a
+              >
+            </div>
+            <div class="navbar-nav ms-auto">
+              <a href="../../../../../login.html" class="nav-item nav-link text-light">Login</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Despre model -->
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-light">
+          <div class="container-fluid">
+              <p>
+                Alpina lucrează îndeaproape cu BMW, iar procesele acestora sunt integrate în liniile de producție ale BMW, astfel Alpina este recunoscută de Ministerul German al Transporturilor ca producător de automobile, spre deosebire de alți specialiști în performanță, care sunt tuneri aftermarket. De exemplu, Alpina B7 este produsă pe aceeași linie de asamblare din Dingolfing, Germania (Uzina BMW Dingolfing), ca și Seria 7 proprie a BMW. V8-ul twin-turbo de 4,4 litri al lui B7 este asamblat manual la unitatea Alpina din Buchloe, Germania, înainte de a fi expediat la BMW pentru instalare, iar vehiculul asamblat este apoi trimis înapoi la Alpina pentru finisaje. Firma a fost fondată în 1965 de Burkard Bovensiepen, membru al familiei de industriași Bovensiepen. Pe 10 martie 2022, BMW și-a anunțat intenția de a achiziționa Alpina.
+ 
+              </p>
+          </div>
+        </nav>
+      </div>
+  </div>
+  <br>
+
+    <!-- Carousel -->
+    <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark text-light">
+            <div class="container">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="carousel1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="carousel2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="carousel3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+          </nav>
+        </div>
+    </div>
+    <br>
+
+    <!-- Continut -->
+    <div class="fundal">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+              <div class="col-x1 pt-3">
+                <div class="tab1">
+                    <h3 class="text-light">General Information</h3>
+                        <table class="table table-attributes no-pad text-light">
+                            <tbody>
+                                <tr>
+                                    <td class="property">Year</td>
+                                    <td class="value">2008</td>
+                                </tr>
+                                <tr>
+                                    <td class="property">Brand</td>
+                                    <td class="value">Alpina</td>
+                                </tr>
+                                <tr>
+                                    <td class="property">Model</td>
+                                    <td class="value">B6</td>
+                                </tr>
+                                <tr>
+                                    <td class="property">Engine</td>
+                                    <td class="value">4.4 V8 32V (530 HP)</td>
+                                </tr>
+                                <tr>
+                                    <td class="property">Body type</td>
+                                    <td class="value">Coupe</td>
+                                </tr>
+                                <tr>
+                                    <td class="property">Doors</td>
+                                    <td class="value">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="property">Seats</td>
+                                    <td class="value">4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3 class="text-light">Body features</h3>
+                        <table class="table table-attributes no-pad text-light">
+                            <tbody>
+                                <tr>
+                                    <td class="property">Length</td>
+                                    <td class="value">4820 mm</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Width</td>
+                                    <td class="value">1855 mm</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Height</td>
+                                    <td class="value">1371 mm</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Wheelbase</td>
+                                    <td class="value">2780</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Weight</td>
+                                    <td class="value">1371 kg</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- A doua coloana -->
+                <div class="col-x1 pt-3">
+                    <div class="tab1">
+                    <h3 class="text-light">Engine Transmission</h3>
+                        <table class="table table-attributes no-pad text-light">
+                            <tbody>
+                                <tr>
+                                    <td class="property">Engine</td>
+                                    <td class="value">4398 cm3</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Engine kw</td>
+                                    <td class="value">389 kw</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Engine hp</td>
+                                    <td class="value">521 hp</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Torque</td>
+                                    <td class="value">389 N*m/rpm</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Fuel supply</td>
+                                    <td class="value">Injection </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Cylinders</td>
+                                    <td class="value">8</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Cylinders diameter</td>
+                                    <td class="value">92 mm</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Valves per cylinders</td>
+                                    <td class="value">4</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Gears</td>
+                                    <td class="value">6</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Fuel</td>
+                                    <td class="value">Gasoline</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Fuel capacity</td>
+                                    <td class="value">70 liters</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Eco standard</td>
+                                    <td class="value">-</td>
+                                </tr>
+                                        </tbody>
+                                    </table>
+                                    
+                        </table>
+                        <h3 class="text-light">Chassis</h3>
+                        <table class="table table-attributes no-pad text-light">
+                            <tbody>
+                                <tr>
+                                    <td class="property">Tires</td>
+                                    <td class="value">255/35/R20
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- A treia coloana -->
+                <div class="col-x1 pt-3">
+                    <div class="tab1">
+                    <h3 class="text-light">Running features</h3>
+                        <table class="table table-attributes no-pad text-light">
+                            <tbody>
+                                <tr>
+                                    <td class="property">Max speed</td>
+                                    <td class="value">318 km/h</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Acceleration</td>
+                                    <td class="value">4.5 s</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Fuel town</td>
+                                    <td class="value">22 l/100km</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Fuel road</td>
+                                    <td class="value">8.7 l/100km</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="property">Fuel average</td>
+                                    <td class="value">18.6 l/100km</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-center text-white mt-4">
+<!-- Grid container -->
+<div class="container p-4">
+  <!-- Section: Form -->
+  <section class="">
+    <form action="">
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-5 col-12">
+          <!-- Sugestii -->
+          <p>
+            Am omis/gresit ceva? Vrei sa adaugi date noi despre modele noi sau modelele existente? Vrei sa ne impartasesti o idee? Nu ezita sa ne contactezi la adresa de mail : <span style="color:wheat">dictionarul-de-masini@gmail.com</span>
+          </p>
+          <hr>
+        </div>
+      </div>
+      <!--Grid row-->
+    </form>
+  </section>
+  <!-- Section: Text -->
+  <section class="mb-4">
+    <p>
+      <span style="color: red;">Disclaimer!!</span> Problemele prezentate pe acest site nu se manifesta 100% la toate masinile, acestea sunt date despre problemele / erorile de proiectare preluate de pe diferite forumuri. Echipa Dictionarul de Masini nu isi asuma responsabilitatea pentru eventualele tepe, neintelegeri, dvs. fiind nevoit sa verificati masina inainte de achizitionare.
+    </p>
+  </section>
+  <!-- Section: Text -->
+
+  <!-- Section: Links -->
+  <section class="">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Link-uri</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Termeni si condtii</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Politica reclamelor</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Politica datelor cu caracter personal</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Despre acest proiect</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+     
+    </div>
+    <!--Grid row-->
+  </section>
+  <!-- Section: Links -->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  © 2022 Copyright:
+  <a class="text-white" href="index.html">www.dictionarul-de-masini.ro</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    background: rgb(0, 0, 0);
+    background-image: linear-gradient(
+      45deg,
+    hsl(0deg 43% 10%) 0%,
+    hsl(3deg 56% 14%) 20%,
+    hsl(3deg 64% 17%) 40%,
+    hsl(2deg 70% 21%) 60%,
+    hsl(1deg 75% 24%) 80%,
+    hsl(0deg 79% 28%) 100%)
+}
+
+.logoArea {
+  text-align: center;
+}
+
+.logomasini {
+  height: 100px;
+  width: 100px;
+}
+
+#aston {
+  background-image: linear-gradient(
+  180deg,
+  hsl(170deg 100% 27%) 9%,
+  hsl(169deg 100% 24%) 28%,
+  hsl(168deg 100% 21%) 41%,
+  hsl(167deg 100% 18%) 52%,
+  hsl(165deg 100% 16%) 62%,
+  hsl(163deg 100% 13%) 70%,
+  hsl(161deg 100% 10%) 79%,
+  hsl(156deg 100% 8%) 86%,
+  hsl(139deg 100% 6%) 93%,
+  hsl(0deg 0% 0%) 100%)
+}
+
+#disclaimer {
+  color: red;
+}

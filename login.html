@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+		src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		crossorigin="anonymous">
+    </script>
+
+    <!-- jQuery -->
+    <script>
+        $(document).ready(function () {
+          $(".linkHome").click(function () {
+              window.location.href = "/index.html"; // window - fereastra afisata in browser; location.href este referinta catre fisierul afisat
+            });
+          });
+      </script>
+
+    <script src="script.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="container-fluid">
+            <a href="index.html" class="navbar-brand linkHome">
+              <img src="logo.png" height="100" alt="CoolBrand" />
+            </a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link active text-light">Home</a>
+                <a href="profile.html" class="nav-item nav-link text-light"
+                  >Profile</a
+                >
+                <a href="calculatorParcare.html" class="nav-item nav-link text-light"
+                  >Calculator parcare Bucuresti</a
+                >
+                <a href="piese.html" class="nav-item nav-link text-light"
+                  >Dictionar piese auto</a
+                >
+              </div>
+              <div class="navbar-nav ms-auto">
+                <a href="login.html" class="nav-item nav-link text-light">Login</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Continut -->
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <p class="text-light"><span style="color:red;">Disclaimer! </span>Datele introduse pe platforma sunt confidentiale, echipa Dictionarul de masini neavand acces la datele dumneavoastra.</p>
+          </nav>
+        </div>
+      </div>
+
+      <br>
+
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <!-- Login -->
+                <div class="col">
+                    <form action="#">
+                        <div class="mb-3 mt-3">
+                            <input type="email" class="form-control" id="emailCheck" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="pwdCheck" placeholder="Enter password" name="pswd">
+                        </div>
+                        <button type="button" class="btn btn-danger buton1">Login</button>
+                    </form>
+                </div>
+                <!-- Sign up -->
+                <div class="col"></div>
+                <div class="col">
+                    <form action="#">
+                        <div class="mb-3 mt-3">
+                            <input type="text" class="form-control prenume" id="prenume" placeholder="Prenume" name="prenume">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="nume"
+                              placeholder="Nume"
+                              name="nume"
+                            />
+                          </div>
+                          <div class="mb-3 mt-3">
+                            <input
+                              type="email"
+                              class="form-control"
+                              id="email"
+                              placeholder="Enter email"
+                              name="email"
+                            />
+                          </div>
+                          <div class="mb-3">
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="pwd"
+                              placeholder="Enter password"
+                              name="pswd"
+                            />
+                          </div>
+              
+                          <button type="button" class="btn btn-danger buton2">Sign up</button>
+                    </form>
+                </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+
+<footer class="bg-dark text-center text-white mt-4">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Sugestii -->
+              <p>
+                Am omis/gresit ceva? Vrei sa adaugi date noi despre modelele noi sau cele existente? Vrei sa ne impartasesti o idee? Nu ezita sa ne contactezi la adresa de mail : <span style="color:wheat">dictionarul-de-masini@gmail.com</span>
+              </p>
+              <hr>
+            </div>
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          <span id="disclaimer">Disclaimer!!</span> Problemele prezentate pe acest site nu se manifesta 100% la toate masinile, acestea sunt date despre problemele / erorile de proiectare preluate de pe diferite forumuri. Echipa Dictionarul de Masini nu isi asuma responsabilitatea pentru eventualele tepe, neintelegeri, dvs. fiind nevoit sa verificati masina inainte de achizitionare.
+        </p>
+      </section>
+      <!-- Section: Text -->
+    
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Link-uri</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Termeni si condtii</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Politica reclamelor</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Politica datelor cu caracter personal</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Despre acest proiect</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+         
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+    
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="index.html">www.dictionarul-de-masini.ro</a>
+    </div>
+  
+</body>
+</html>

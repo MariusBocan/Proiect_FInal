@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+		src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		crossorigin="anonymous">
+    </script>
+
+    <!-- jQuery redirect -->
+
+    <script>
+      $(document).ready(function () {
+        $(".linkHome").click(function () {
+            window.location.href = "/index.html"; // window - fereastra afisata in browser; location.href este referinta catre fisierul afisat
+          });
+        });
+    </script>
+
+    <title>Dictionarul de masini - Dodge</title>
+  </head>
+  <body
+   >
+    <!-- Header -->
+    <div class="m-4">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand linkHome">
+            <img src="logo.png" height="100" alt="CoolBrand" />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="#" class="nav-item nav-link active text-light linkHome">Home</a>
+              <a href="../../profile.html" class="nav-item nav-link text-light linkProfile">Profile</a>
+              <a href="../../calculatorParcare.html" class="nav-item nav-link text-light linkParcare"
+                >Calculator parcare Bucuresti</a
+              >
+              <a href="../../piese.html" class="nav-item nav-link text-light linkDictionar"
+                >Dictionar piese auto</a
+              >
+            </div>
+            <div class="navbar-nav ms-auto">
+              <a href="../../login.html" class="nav-item nav-link text-light">Login</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Despre model -->
+    <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark text-light">
+            <div class="container-fluid">
+                <p>
+                    Dodge este o companie de automobile care a fost fondată în 1900 în SUA și principalul domeniu de interes a fost producerea de piese auto pentru alte companii. Marca este deținută de Fiat Chrysler și își propune să producă vehicule la preț redus, care sunt rebadizate Chrysler, cu toate acestea sunt produse și mașini de înaltă performanță. Pe parcursul vieții, compania a făcut parte din Daimler-Benz AG (1998 – 2007), în prezent unele acțiuni ale companiei sunt deținute de Fiat (după faliment). Dodge importă producție (mașini ușoare, camioane, SUV-uri, camionete) în Argentina, Asia, Australia, Brazilia, Canada, Mexic și în țările europene.
+                </p>
+            </div>
+          </nav>
+        </div>
+    </div>
+    <br>
+
+    <!-- Continut -->
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+              <div class="col-xl-6 pt-3 mx-5 coloana">
+                <!-- Challenger -->
+                <a href="modele/challenger/challenger.html">
+                    <img 
+                    class="img-fluid m-3 modeleMasini"
+                    src="modele/challenger/challenger.jpg"
+                    >
+                </a>
+                <p class="text-light numeModel" style="margin-left: 120px">Challenger SRT Hellcat</p>
+              </div>
+
+              <div class="col-xl-6 pt-3 mx-5 coloana">
+              
+                <!-- Viper -->
+                <a href="modele/viper/viper.html">
+                    <img 
+                    class="img-fluid m-3 modeleMasini"
+                    src="modele/viper/viper.jpg"
+                    >
+                </a>
+                <p class="text-light numeModel">Viper SRT</p>
+              </div>
+            </div>
+          </nav>
+        </div>
+        </div>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-center text-white mt-4">
+<!-- Grid container -->
+<div class="container p-4">
+  <!-- Section: Form -->
+  <section class="">
+    <form action="">
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-5 col-12">
+          <!-- Sugestii -->
+          <p>
+            Am omis/gresit ceva? Vrei sa adaugi date noi despre modelele noi sau cele existente? Vrei sa ne impartasesti o idee? Nu ezita sa ne contactezi la adresa de mail : <span style="color:wheat">dictionarul-de-masini@gmail.com</span>
+          </p>
+          <hr>
+        </div>
+      </div>
+      <!--Grid row-->
+    </form>
+  </section>
+  <!-- Section: Text -->
+  <section class="mb-4">
+    <p>
+      <span style="color: red;">Disclaimer!!</span> Problemele prezentate pe acest site nu se manifesta 100% la toate masinile, acestea sunt date despre problemele / erorile de proiectare preluate de pe diferite forumuri. Echipa Dictionarul de Masini nu isi asuma responsabilitatea pentru eventualele tepe, neintelegeri, dvs. fiind nevoit sa verificati masina inainte de achizitionare.
+    </p>
+  </section>
+  <!-- Section: Text -->
+
+  <!-- Section: Links -->
+  <section class="">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Link-uri</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Termeni si condtii</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Politica reclamelor</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Politica datelor cu caracter personal</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Despre acest proiect</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+     
+    </div>
+    <!--Grid row-->
+  </section>
+  <!-- Section: Links -->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  © 2022 Copyright:
+  <a class="text-white" href="index.html">www.dictionarul-de-masini.ro</a>
+</div>
+
+</body>
+</html>

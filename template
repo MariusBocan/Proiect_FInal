@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="stylesheet" src="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+		src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		crossorigin="anonymous">
+    </script>
+
+    <!-- jQuery redirect -->
+
+    <script>
+        $(document).ready(function () {
+        $(".linkHome").click(function () {
+            window.location.href = "/index.html"; // window - fereastra afisata in browser; location.href este referinta catre fisierul afisat
+          });
+        });
+    </script>
+
+    <title>Dictionarul de masini</title>
+  </head>
+  <body
+    class="bg-dark"
+    style="
+      background: rgb(0, 0, 0);
+      background-image: linear-gradient(
+        45deg,
+      hsl(0deg 43% 10%) 0%,
+      hsl(3deg 56% 14%) 20%,
+      hsl(3deg 64% 17%) 40%,
+      hsl(2deg 70% 21%) 60%,
+      hsl(1deg 75% 24%) 80%,
+      hsl(0deg 79% 28%) 100%)">
+    <!-- Header -->
+    <div class="m-4">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand linkHome">
+            <img src="logo.png" height="100" alt="CoolBrand" />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="#" class="nav-item nav-link active text-light">Home</a>
+              <a href="#" class="nav-item nav-link text-light">Profile</a>
+              <a href="#" class="nav-item nav-link text-light"
+                >Calculator parcare Bucuresti</a
+              >
+              <a href="#" class="nav-item nav-link text-light"
+                >Calculator impozit Bucuresti</a
+              >
+              <a href="#" class="nav-item nav-link text-light"
+                >Dictionar piese auto</a
+              >
+            </div>
+            <div class="navbar-nav ms-auto">
+              <a href="#" class="nav-item nav-link text-light">Login</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Continut -->
+    <div class="fundal">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+              <div class="col-x1 pt-3">
+            </div>
+            </div>
+          </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-center text-white mt-4">
+<!-- Grid container -->
+<div class="container p-4">
+  <!-- Section: Form -->
+  <section class="">
+    <form action="">
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-5 col-12">
+          <!-- Sugestii -->
+          <p>
+            Am omis/gresit ceva? Vrei sa adaugi date noi despre modele noi sau modelele existente? Vrei sa ne impartasesti o idee? Nu ezita sa ne contactezi la adresa de mail : <span style="color:wheat">dictionarul-de-masini@gmail.com</span>
+          </p>
+          <hr>
+        </div>
+      </div>
+      <!--Grid row-->
+    </form>
+  </section>
+  <!-- Section: Text -->
+  <section class="mb-4">
+    <p>
+      <span style="color: red;">Disclaimer!!</span> Problemele prezentate pe acest site nu se manifesta 100% la toate masinile, acestea sunt date despre problemele / erorile de proiectare preluate de pe diferite forumuri. Echipa Dictionarul de Masini nu isi asuma responsabilitatea pentru eventualele tepe, neintelegeri, dvs. fiind nevoit sa verificati masina inainte de achizitionare.
+    </p>
+  </section>
+  <!-- Section: Text -->
+
+  <!-- Section: Links -->
+  <section class="">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Link-uri</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Termeni si condtii</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Politica reclamelor</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Politica datelor cu caracter personal</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Despre acest proiect</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+     
+    </div>
+    <!--Grid row-->
+  </section>
+  <!-- Section: Links -->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  © 2022 Copyright:
+  <a class="text-white" href="index.html">www.dictionarul-de-masini.ro</a>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!!!!!!!!
+<!-- Continut -->
+
+<div class="fundal">
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <div class="col-x2 pt-3">
+            <!-- Alfa Romeo -->
+              <a href="masini/alfa_romeo/alfa_romeo.html">  
+                <img
+                  class="m-3"
+                  src="logo_categorii/alfa.png"
+                  style="height: 100px; width: 100px;"
+                />
+              </a>
+            <!-- Alpina -->
+              <a href="#">  
+                <img
+                  class="m-3"
+                  src="logo_categorii/alpina.png"
+                  style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Aston Martin -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/aston.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Audi -->
+              <a href="#">
+                <img
+                  class="m-3"
+                  src="logo_categorii/audi.png"
+                  style="height: 100px; width: 100px;"
+              />
+              </a>
+             <!-- Bentley -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/bentley.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- BMW -->
+              <a href="#">
+                <img
+                  class="m-3"
+                  src="logo_categorii/bmw.png"
+                  style="height: 100px; width: 100px;"
+              />
+              </a>
+             <!-- Bugatti -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/bugatti.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Cadillac -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/cadillac.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Chevrolet -->
+              <a href="#">
+                <img
+                  class="m-3"
+                  src="logo_categorii/chevrolet.png"
+                  style="height: 100px; width: 100px;"
+              />
+              </a>
+             <!-- Chrysler -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/chrysler.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Citroen -->
+              <a href="#">
+                <img
+                  class="m-3"
+                  src="logo_categorii/citroen.png"
+                  style="height: 100px; width: 100px;"
+              />
+              </a>
+             <!-- Cupra -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/cupra.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Dacia -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/dacia.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Daewoo -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/daewoo.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Dodge -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/dodge.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- DS -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/ds.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Ferrari -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/ferrari.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Fiat -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/fiat.png "
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Ford -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/ford.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Honda -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/honda.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Hummer -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/hummer.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Hyundai -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/hyundai.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Infiniti -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/infiniti.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Jaguar -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/jaguar.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Jeep -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/jeep.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Kia -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/kia.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Koenigsegg -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/koenigsegg.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Lamborghini -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/lamborghini.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Lancia -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/lancia.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Land Rover -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/landrover.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Lexus -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/lexus.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Lotus -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/lotus.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Mazda -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/mazda.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- McLaren -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/mclaren.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Mercedes-Benz-->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/mercedes.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Mini -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/mini.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Mitsubishi -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/mitsubishi.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Nissan -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/nissan.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Opel -->
+            <a href="masini/opel/modelOpel.html">
+              <img
+                id="opel"
+                class="m-3"
+                src="logo_categorii/opel.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Pagani -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/pagani.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Peugeot -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/peugeot.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Porsche -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/porsche.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Renaul -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/renault.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Rolls -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/rolls.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Saab -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/saab.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Seat -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/seat.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Skoda -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/skoda.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Smart -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/smart.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Subaru -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/subaru.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Suzuki -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/suzuki.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+             <!-- Tesla -->
+             <a href="#">  
+              <img
+                class="m-3"
+                src="logo_categorii/tesla.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Toyota -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/toyota.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Volkswagen -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/volkswagen.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+            <!-- Volvo -->
+            <a href="#">
+              <img
+                class="m-3"
+                src="logo_categorii/volvo.png"
+                style="height: 100px; width: 100px;"
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 4C -->
+<a href="modele/4C/4c.html">
+  <img 
+  class="m-3 modeleMasini"
+  src="modele/4C/4C.jpg"
+  
+  >
+</a>
+<p class="text-light numeModel">4C-Competizione</p>
+<!-- 8C -->
+<a href="modele/8C-Competizione/8c.html">
+  <img 
+  class="m-3 modeleMasini"
+  src="modele/8C-Competizione/8c.jpg"
+  
+  >
+</a>
+<p class="text-light numeModel">8C-Competizione</p>
+<!-- 159 -->
+<a href="modele/159/159.html">
+  <img 
+  class="m-3 modeleMasini"
+  src="modele/159/159.jpg"
+  
+  >
+</a>
+<p class="text-light numeModel">159</p>
+
+<!-- Brera -->
+<a href="modele/Brera/brera.html">
+  <img 
+  class="m-3 modeleMasini"
+  src="modele/Brera/brera.jpg"
+  
+  >
+</a>
+<p class="text-light numeModel">Brera</p>
+</div>
+<div class="col-x2 pt-3 coloana">
+<!-- Giulia -->
+<a href="#">
+  <img 
+  class="m-3 modeleMasini"
+  src="modele/Giulia/giulia.jpg"
+  
+  >
+</a>
+<p class="text-light numeModel">Giulia</p>
+<!-- Giulieta -->
+<a href="#">
+  <img 
+  class="m-3 modeleMasini"
+  src="modele/Giulieta/giulieta.jpg"
+  
+  >
+</a>
+<p class="text-light numeModel">Giulieta</p>
+<!-- GT -->
+<a href="#">
+  <img 
+  class="m-3 modeleMasini"
+  src="modele/GT/gt.JPG"
+  
+  >
+</a>
+<p class="text-light numeModel">GT</p>
+<!-- MiTO -->
+<a href="#">
+  <img 
+  class="m-3 modeleMasini"
+  src="modele/MiTO/mito.JPG"
+  
+  >
+</a>
+<p class="text-light numeModel">MiTO</p>
